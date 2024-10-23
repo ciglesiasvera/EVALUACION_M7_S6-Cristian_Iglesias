@@ -1,0 +1,21 @@
+CUE: MIGRACIONES
+
+DRILLING: MODIFICANDO LOS MODELOS
+
+Para resolver este ejercicio, anteriormente debe haber revisado la lectura y los videos del CUE:
+Relaciones Muchos a Muchos y Uno a Uno.
+
+EJERCICIO:
+
+Partiendo del modelo creado en el Rebound Exercise:
+
+1. Agregue los siguientes campos a los modelos, y genere las migraciones correspondientes.
+
+Fábrica:
+pais = Tipo cadena de 100 caracteres.
+
+Producto:
+f_vencimiento = Tipo fecha, que puede ser nulo o vacío.
+
+2. Revierta la migración actual a la 0001_inicial.py, y genere una nueva migración llamada: 
+agregacion_de_relacion_y_campos
